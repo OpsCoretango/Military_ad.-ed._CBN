@@ -61,7 +61,6 @@
     "weight": "40 kg",
     "dispersion": 200,
     "ups_charges": 80,
-    "extend": { "flags": [ "MOUNTED_GUN" ] },
     "delete": { "flags": [ "NO_UNWIELD", "NO_SALVAGE", "NO_REPAIR", "UNBREAKABLE_MELEE" ] }
   },
   {
