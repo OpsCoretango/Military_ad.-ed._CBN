@@ -21,7 +21,7 @@
     "material_thickness": 1,
     "use_action": {
       "type": "bandolier",
-      "capacity": 60,
+      "capacity": 120,
       "ammo": [
         "pebble",
         "700nx",
@@ -78,7 +78,7 @@
     "id": "ammo_satchel",
     "type": "ARMOR",
     "name": { "str": "ammo satchel" },
-    "description": "A fabric ammo bag worn at the waist which is capable of holding a single large magazine close at hand.",
+    "description": "A fabric ammo bag worn at the waist which is capable of holding a two large magazines close at hand.",
     "weight": "180 g",
     "volume": "500 ml",
     "price": 2000,
@@ -95,7 +95,8 @@
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "max_volume": "1500 ml",
+      "multi": 2,
+      "max_volume": "6500 ml",
       "draw_cost": 40,
       "flags": [ "MAG_COMPACT", "MAG_BULKY" ]
     },
@@ -105,7 +106,7 @@
     "id": "chestpouch",
     "type": "ARMOR",
     "name": { "str": "chest ammo pouch", "str_pl": "chest ammo pouches" },
-    "description": "A fabric ammo pouch that can be strapped to your chest which is capable of holding a single magazine or speedloader close at hand.",
+    "description": "A fabric ammo pouch that can be strapped to your chest which is capable of holding a two magazines or speedloader close at hand.",
     "weight": "140 g",
     "volume": "250 ml",
     "price": 1250,
@@ -132,7 +133,7 @@
     "id": "chestrig",
     "type": "ARMOR",
     "name": { "str_sp": "chest rig" },
-    "description": "Popularized during the Vietnam War, chest rigs like these are typically plain, barebones affairs consisting of three or more pouches in a row, with straps to secure them on your chest.  This one can hold four magazines or speedloaders in its pouches.",
+    "description": "Popularized during the Vietnam War, chest rigs like these are typically plain, barebones affairs consisting of three or more pouches in a row, with straps to secure them on your chest.  This one can hold eight magazines or speedloaders in its pouches.",
     "weight": "425 g",
     "volume": "500 ml",
     "price": 3900,
@@ -149,7 +150,7 @@
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 4,
+      "multi": 8,
       "max_volume": "750 ml",
       "draw_cost": 40,
       "flags": [ "MAG_COMPACT", "SPEEDLOADER" ]
@@ -264,15 +265,15 @@
     "storage": "2500 ml",
     "warmth": 15,
     "material_thickness": 5,
-    "use_action": {
+     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 4,
+      "multi": 8,
       "min_volume": "250 ml",
       "max_volume": "1 L",
       "draw_cost": 60,
-      "flags": [ "MAG_COMPACT" ]
+      "flags": [ "MAG_COMPACT", "MAG_BULKY" ]
     },
     "flags": [ "STURDY", "OUTER" ]
   },
@@ -297,15 +298,15 @@
     "storage": "1 L",
     "warmth": 15,
     "material_thickness": 9,
-    "use_action": {
+     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 4,
+      "multi": 8,
       "min_volume": "250 ml",
       "max_volume": "1 L",
       "draw_cost": 60,
-      "flags": [ "MAG_COMPACT" ]
+      "flags": [ "MAG_COMPACT", "MAG_BULKY" ]
     },
     "flags": [ "OUTER" ]
   },
@@ -330,15 +331,15 @@
     "storage": "1 L",
     "warmth": 15,
     "material_thickness": 5,
-    "use_action": {
+     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 4,
+      "multi": 8,
       "min_volume": "250 ml",
       "max_volume": "1 L",
       "draw_cost": 60,
-      "flags": [ "MAG_COMPACT" ]
+      "flags": [ "MAG_COMPACT", "MAG_BULKY" ]
     },
     "flags": [ "STURDY", "OUTER" ]
   },
@@ -363,15 +364,15 @@
     "storage": "1 L",
     "warmth": 15,
     "material_thickness": 8,
-    "use_action": {
+     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 4,
+      "multi": 8,
       "min_volume": "250 ml",
       "max_volume": "1 L",
       "draw_cost": 60,
-      "flags": [ "MAG_COMPACT" ]
+      "flags": [ "MAG_COMPACT", "MAG_BULKY" ]
     },
     "flags": [ "STURDY", "OUTER" ]
   },
@@ -400,11 +401,11 @@
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 4,
+      "multi": 8,
       "min_volume": "250 ml",
       "max_volume": "1 L",
       "draw_cost": 60,
-      "flags": [ "MAG_COMPACT" ]
+      "flags": [ "MAG_COMPACT", "MAG_BULKY" ]
     },
     "flags": [ "STURDY", "OUTER" ]
   },
@@ -515,7 +516,7 @@
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 4,
+      "multi": 8,
       "min_volume": "250 ml",
       "max_volume": "1 L",
       "draw_cost": 60,
