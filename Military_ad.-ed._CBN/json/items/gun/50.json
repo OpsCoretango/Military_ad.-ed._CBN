@@ -36,21 +36,21 @@
     "range": 110,
     "dispersion": 250,
     "barrel_length": "1250 ml",
+    "default_mods": [ "bipod", "muzzle_brake" ],
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
-      [ "brass catcher", 1 ],
       [ "sights", 1 ],
-      [ "sling", 1 ],
       [ "mechanism", 4 ],
       [ "muzzle", 1 ],
+      [ "sling", 1 ],
+      [ "grip", 1 ],
       [ "rail mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
     "magazines": [ [ "50", [ "belt50" ] ] ],
-    "flags": [ "MOUNTED_GUN" ]
   },
   {
     "id": "m2browning_sawn",
