@@ -104,7 +104,7 @@
     },
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "encumbrance": 10,
-    "weight_capacity_bonus": "55 kg"
+    "weight_capacity_bonus": "115 kg"
   },
   {
     "id": "power_armor_heavy",
@@ -163,7 +163,7 @@
     },
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "encumbrance": 20,
-    "weight_capacity_bonus": "75 kg"
+    "weight_capacity_bonus": "135 kg"
   },
   {
     "id": "power_armor_light",
@@ -220,7 +220,7 @@
     },
     "covers": [ "torso", "arms", "hands", "legs", "feet" ],
     "encumbrance": 0,
-    "weight_capacity_bonus": "12670 g"
+    "weight_capacity_bonus": "65670 g"
   },
   {
     "id": "power_armor_helmet_basic",
@@ -405,9 +405,9 @@
     "covers": [ "torso" ],
     "coverage": 30,
     "encumbrance": 5,
-    "storage": "40 L",
+    "storage": "80 L",
     "material_thickness": 10,
-    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", "ONLY_ONE" ]
+    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED" ]
   },
   {
     "id": "power_armor_back_holster",
@@ -426,12 +426,13 @@
     "material_thickness": 1,
     "use_action": {
       "type": "holster",
+      "multi": 4,
       "max_volume": "10 L",
       "min_volume": "1500 ml",
       "draw_cost": 150,
       "skills": [ "smg", "shotgun", "rifle", "launcher" ]
     },
-    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "BELTED", "NO_QUICKDRAW", "ONLY_ONE" ]
+    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "BELTED", "NO_QUICKDRAW", ]
   },
   {
     "id": "power_armor_holster",
@@ -448,7 +449,7 @@
     "covers": [ "leg_either" ],
     "coverage": 5,
     "material_thickness": 1,
-    "use_action": { "type": "holster", "max_volume": "800 ml", "min_volume": "100 ml", "skills": [ "pistol", "smg", "shotgun" ] },
+    "use_action": { "type": "holster", "multi": 3, "max_volume": "800 ml", "min_volume": "100 ml", "skills": [ "pistol", "smg", "shotgun" ] },
     "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "WAIST" ]
   },
   {
@@ -471,10 +472,10 @@
       "type": "holster",
       "holster_prompt": "Stash ammo",
       "holster_msg": "You stash your %s.",
-      "multi": 3,
+      "multi": 28,
       "max_volume": "750 ml",
       "draw_cost": 40,
-      "flags": [ "MAG_COMPACT" ]
+      "flags": [ "MAG_COMPACT", "MAG_BULKY", "GRENADE" ]
     },
     "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", "WAIST" ]
   },
@@ -498,11 +499,12 @@
       "type": "holster",
       "holster_prompt": "Sheath sword",
       "holster_msg": "You sheath your %s",
-      "max_volume": "3750 ml",
+      "max_volume": "55000 ml",
+      "multi": 2,
       "draw_cost": 5,
       "flags": [ "SHEATH_SWORD", "SHEATH_AXE" ]
     },
-    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", "ONLY_ONE" ]
+    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", ]
   },
   {
     "id": "power_armor_scabbard",
