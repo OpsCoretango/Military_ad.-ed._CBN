@@ -48,9 +48,10 @@
       [ "sling", 1 ],
       [ "grip", 1 ],
       [ "rail mount", 1 ],
+      [ "stock mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "magazines": [ [ "50", [ "belt50" ] ] ],
+    "magazines": [ [ "50", [ "belt50" ] ] ]
   },
   {
     "id": "m2browning_sawn",
