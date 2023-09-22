@@ -211,8 +211,8 @@
     "dispersion": 200,
     "durability": 7,
     "min_cycle_recoil": 1350,
-    "modes": [ [ "DEFAULT", "burst", 4 ] ],
-    "built_in_mods": [ "bipod" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "burst", 4 ], [ "AUTO", "auto", 16 ] ],
+    "default_mods": [ "bipod", "pistol_grip", "shoulder_strap", "adjustable_stock" ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -224,7 +224,8 @@
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ]
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
     ],
     "magazines": [
       [
