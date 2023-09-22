@@ -432,7 +432,7 @@
       "draw_cost": 150,
       "skills": [ "smg", "shotgun", "rifle", "launcher" ]
     },
-    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "BELTED", "NO_QUICKDRAW", ]
+    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "BELTED", "NO_QUICKDRAW" ]
   },
   {
     "id": "power_armor_holster",
@@ -504,7 +504,7 @@
       "draw_cost": 5,
       "flags": [ "SHEATH_SWORD", "SHEATH_AXE" ]
     },
-    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", ]
+    "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED" ]
   },
   {
     "id": "power_armor_scabbard",
