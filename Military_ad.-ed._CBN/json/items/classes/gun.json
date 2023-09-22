@@ -215,7 +215,7 @@
       [ "brass catcher", 1 ],
       [ "grip", 1 ],
       [ "mechanism", 4 ],
-      [ "magazine", 1 ],
+      [ "magazine", 2 ],
       [ "muzzle", 1 ],
       [ "rail", 2 ],
       [ "sights", 1 ],
@@ -382,7 +382,7 @@
       [ "sights mount", 1 ],
       [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel mount", 1 ]
+      [ "underbarrel mount", 2 ]
     ]
   },
   {
@@ -442,6 +442,7 @@
       [ "bore", 1 ],
       [ "brass catcher", 1 ],
       [ "grip", 1 ],
+      [ "magazine", 2 ],
       [ "mechanism", 4 ],
       [ "muzzle", 1 ],
       [ "rail", 1 ],
@@ -475,8 +476,18 @@
     "dispersion": 300,
     "reload": 400,
     "handling": 60,
-    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "sling", 1 ], [ "rail mount", 1 ], [ "sights mount", 1 ] ],
-    "flags": [ "MOUNTED_GUN" ],
+    "valid_mod_locations": [
+      [ "brass catcher", 1 ],
+      [ "sling", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+	  [ "underbarrel mount", 1 ],
+	  [ "stock mount", 1 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 2 ],
+      [ "accessories", 3 ]
+	  ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ]
   },
   {
