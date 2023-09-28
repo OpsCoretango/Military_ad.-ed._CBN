@@ -1,0 +1,1 @@
+gettin rid of 30,20,25,10,15 shots in full-auto from weapons.

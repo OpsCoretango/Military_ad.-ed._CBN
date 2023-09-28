@@ -1,0 +1,1 @@
+gettin rid of ridiculous 22. from assault rifles, 10+ shots in full auto
