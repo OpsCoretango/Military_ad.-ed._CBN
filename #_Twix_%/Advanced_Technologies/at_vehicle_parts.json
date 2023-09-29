@@ -565,10 +565,16 @@
     "symbol": "\"",
     "type": "vehicle_part"
   },
-  {
+   {
     "copy-from": "viewport",
-    "id": "viewport_nw",
-    "symbol": "y",
+    "id": "viewport_horizontal_front",
+    "symbol": "T",
+    "type": "vehicle_part"
+  },
+   {
+    "copy-from": "viewport",
+    "id": "viewport_horizontal_rear_edge",
+    "symbol": "T",
     "type": "vehicle_part"
   },
   {
@@ -579,8 +585,32 @@
   },
   {
     "copy-from": "viewport",
-    "id": "viewport_horizontal_front",
-    "symbol": "T",
+    "id": "viewport_nw",
+    "symbol": "y",
+    "type": "vehicle_part"
+  },
+  {
+    "copy-from": "viewport",
+    "id": "viewport_se_edge",
+    "symbol": "n",
+    "type": "vehicle_part"
+  },
+   {
+    "copy-from": "viewport",
+    "id": "viewport_sw_edge",
+    "symbol": "b",
+    "type": "vehicle_part"
+  },
+   {
+    "copy-from": "viewport",
+    "id": "viewport_vertical_left",
+    "symbol": "j",
+    "type": "vehicle_part"
+  },
+   {
+    "copy-from": "viewport",
+    "id": "viewport_vertical_right",
+    "symbol": "H",
     "type": "vehicle_part"
   },
   {

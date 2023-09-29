@@ -1,0 +1,91 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE",
+      "MshockRealXotto",
+      "MSX++DEAD_PEOPLE",
+      "MSXotto+",
+      "UltimateCataclysm",
+      "UltimateCataclysmDemo"
+    ],
+    "tiles-new": [
+      {
+        "file": "at_normal_vehicle_parts.png",
+        "tiles": [
+          { "id": "vp_bullbar_tech", "fg": 568, "rotates": true },
+          { "id": "vp_rambar_tech", "fg": 570, "rotates": true },
+          {
+            "id": "vp_viewport",
+            "fg": 1004,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1003 } ]
+          },
+          {
+            "id": "vp_viewport_horizontal_front",
+            "fg": 1006,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1005 } ]
+          },
+          {
+            "id": "vp_viewport_horizontal_rear_edge",
+            "fg": 1008,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1007 } ]
+          },
+          {
+            "id": "vp_viewport_ne",
+            "fg": 1010,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1009 } ]
+          },
+          {
+            "id": "vp_viewport_nw",
+            "fg": 1012,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1011 } ]
+          },
+          {
+            "id": "vp_viewport_se_edge",
+            "fg": 1014,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1013 } ]
+          },
+          {
+            "id": "vp_viewport_sw_edge",
+            "fg": 1016,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1015 } ]
+          },
+          {
+            "id": "vp_viewport_vertical_left",
+            "fg": 1018,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1017 } ]
+          },
+          {
+            "id": "vp_viewport_vertical_right",
+            "fg": 1020,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 1021 } ]
+          }
+        ],
+        "//": "range 1 to 1215",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  }
+]
