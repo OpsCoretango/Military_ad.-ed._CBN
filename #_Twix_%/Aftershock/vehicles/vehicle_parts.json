@@ -14,6 +14,20 @@
     "size": 600,
     "breaks_into": [ { "item": "steel_lump", "count": [ 4, 6 ] }, { "item": "scrap", "count": [ 4, 6 ] } ]
   },
+    {
+    "type": "vehicle_part",
+    "id": "afs_hauling_space",
+    "copy-from": "cargo_space",
+    "name": { "str": "hauling space" },
+    "looks_like": "trunk",
+    "item": "afs_hauling_space",
+    "location": "center",
+    "durability": 400,
+    "description": "A huge, empty space used in truck trailers to transport vast quantities of stuff.",
+    "size": 6000,
+    "breaks_into": [ { "item": "steel_lump", "count": [ 12, 18 ] }, { "item": "scrap", "count": [ 12, 18 ] } ],
+    "flags": [ "AISLE", "BOARDABLE", "CARGO", "ROOF", "COVERED" ]
+  },
   {
     "type": "vehicle_part",
     "id": "afs_crude_plating",
