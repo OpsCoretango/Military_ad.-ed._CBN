@@ -16,7 +16,7 @@
     "category": "veh_parts",
     "price": 4000
   },
-    {
+  {
     "type": "GENERIC",
     "id": "afs_hauling_space",
     "name": { "str": "hauling space" },
@@ -25,7 +25,7 @@
     "to_hit": -6,
     "color": "cyan",
     "symbol": "]",
-    "looks_like": "trunk",
+    "looks_like": "cargo_aisle",
     "material": [ "steel" ],
     "volume": "100 L",
     "bashing": 2,
