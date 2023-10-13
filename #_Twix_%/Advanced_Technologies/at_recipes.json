@@ -98,7 +98,6 @@
       [ [ "welder", 600 ], [ "welder_crude", 900 ], [ "toolset", 900 ], [ "forge", 600 ] ]
     ],
     "components": [
-      [
       [ [ "hdframe", 2 ] ],
       [ [ "steel_plate", 24 ] ],
       [ [ "motor_oil", 12000 ] ],
