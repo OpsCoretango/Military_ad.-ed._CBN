@@ -16,7 +16,7 @@
     "capacity": 10,
     "reliability": 7,
     "reload_time": 200,
-    "flags": [ "MAG_BULKY" ]
+    "flags": [ "MAG_COMPACT" ]
   },
   {
     "id": ".30820mag",
@@ -54,13 +54,13 @@
     "capacity": 10,
     "reliability": 8,
     "reload_time": 300,
-    "flags": [ "MAG_BULKY" ]
+    "flags": [ "MAG_COMPACT" ]
   },
   {
     "id": "7.62x54Rmag2",
     "type": "MAGAZINE",
     "name": { "str": "20 Round 7.62x54R Magazine" },
-    "description": "An extended 20 round 7.62x54R magazine for use in Russian sniper rifles",
+    "description": "An rare extended 20 round 7.62x54R magazine for use in Russian sniper rifles",
     "weight": "1200 g",
     "volume": "1250 ml",
     "price": "90 USD",
@@ -506,7 +506,7 @@
     "id": "auto30mag",
     "type": "MAGAZINE",
     "name": { "str": "AA-12 drum magazine" },
-    "description": "A removable plastic magazine for the AA-12 shotgun.  Holds 30 rounds",
+    "description": "A removable plastic magazine for the AA-12 shotgun.  Holds 20 rounds",
     "weight": "460 g",
     "volume": "1 L",
     "price": "110 USD",
@@ -514,7 +514,7 @@
     "symbol": "#",
     "color": "dark_gray",
     "ammo_type": "shot",
-    "capacity": 30,
+    "capacity": 20,
     "reliability": 8,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
@@ -523,7 +523,7 @@
     "id": "usas30mag",
     "type": "MAGAZINE",
     "name": { "str": "USAS-12 drum magazine" },
-    "description": "A removable plastic magazine for the USAS-12 shotgun.  Holds 30 rounds",
+    "description": "A removable plastic magazine for the USAS-12 shotgun.  Holds 20 rounds",
     "weight": "460 g",
     "volume": "1 L",
     "price": "110 USD",
@@ -531,7 +531,7 @@
     "symbol": "#",
     "color": "dark_gray",
     "ammo_type": "shot",
-    "capacity": 30,
+    "capacity": 20,
     "reliability": 8,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
@@ -557,7 +557,7 @@
     "id": "spas30mag",
     "type": "MAGAZINE",
     "name": { "str": "Franchi Spas 15 drum magazine" },
-    "description": "A removable plastic magazine for the Spas 15 shotgun.  Holds 30 rounds",
+    "description": "A removable plastic magazine for the Spas 15 shotgun.  Holds 22 rounds",
     "weight": "460 g",
     "volume": "1 L",
     "price": "110 USD",
@@ -565,7 +565,7 @@
     "symbol": "#",
     "color": "dark_gray",
     "ammo_type": "shot",
-    "capacity": 30,
+    "capacity": 22,
     "reliability": 8,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
@@ -653,7 +653,7 @@
     "symbol": "#",
     "color": "dark_gray",
     "ammo_type": "762R",
-    "capacity": 60,
+    "capacity": 47,
     "reliability": 9,
     "reload_time": 300,
     "flags": [ "MAG_BULKY" ]
@@ -679,7 +679,7 @@
     "id": "460mag2",
     "type": "MAGAZINE",
     "name": { "str": "M1911A1 .460 Rowland magazine" },
-    "description": "A custom 10-round magazine for use with the M1911A1 .460 Conversion handgun.",
+    "description": "A custom 12-round magazine for use with the M1911A1 .460 Conversion handgun.",
     "weight": "120 g",
     "volume": "500 ml",
     "price": "29 USD",
@@ -687,7 +687,7 @@
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ ".460" ],
-    "capacity": 10,
+    "capacity": 12,
     "reliability": 10,
     "reload_time": 125,
     "flags": [ "MAG_COMPACT" ]
