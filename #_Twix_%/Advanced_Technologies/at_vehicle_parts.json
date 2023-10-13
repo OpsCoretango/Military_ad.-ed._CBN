@@ -315,10 +315,11 @@
     "breaks_into": [
       { "item": "steel_lump", "count": [ 3, 5 ] },
       { "item": "steel_chunk", "count": [ 3, 6 ] },
-      { "item": "scrap", "count": [ 5, 10 ] }
+      { "item": "scrap", "count": [ 5, 10 ] },
+      { "item": "ceramic_armor", "count": [ 0, 16 ] }
     ],
     "rolling_resistance": 0.8,
-    "wheel_type": "standard",
+    "wheel_type": "off-road",
     "contact_area": 1600,
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -326,8 +327,8 @@
       "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "adhesive", 2 ], [ "plastics", 2 ] ] }
     },
     "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY" ],
-    "damage_reduction": { "all": 80, "cut": 40, "stab": 20 }
-  },
+    "damage_reduction": { "all": 100, "cut": 105, "stab": 94 }   "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+  }, 
   {
     "type": "vehicle_part",
     "id": "wheel_buggy",
@@ -376,7 +377,8 @@
       { "item": "steel_chunk", "count": [ 6, 12 ] },
       { "item": "scrap", "count": [ 6, 12 ] },
       { "item": "ceramic_armor", "count": [ 0, 8 ] }
-    ]
+    ],
+  "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
   },
   {
     "type": "vehicle_part",
