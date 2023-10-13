@@ -93,7 +93,7 @@
     "type": "GUN",
     "name": { "str": "Bushmaster ACR" },
     "default_mods": [ "folding_stock" ],
-    "ammo": [ "308", "223" ],
+    "ammo": [ "308", "22", "223" ],
     "magazines": [
       [
         "223",
@@ -115,6 +115,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
   },
@@ -138,7 +139,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo": [ "308", "9mm", "223" ],
+    "ammo": [ "308", "22", "9mm", "223" ],
     "magazines": [
       [
         "223",
@@ -160,6 +161,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "9mm", [ "uzimag", "m9mag", "m9bigmag", "9mmbetacmag", "survivor9mm_mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
@@ -169,7 +171,7 @@
     "copy-from": "h&k416a5",
     "type": "GUN",
     "name": { "str": "H&K 416A5" },
-    "ammo": [ "308", "223" ],
+    "ammo": [ "308", "22", "223" ],
     "magazines": [
       [
         "223",
@@ -191,6 +193,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
   },
@@ -215,7 +218,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo": [ "308", "223" ],
+    "ammo": [ "308", "22", "223" ],
     "magazines": [
       [
         "223",
@@ -237,6 +240,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
   },
@@ -275,7 +279,7 @@
     "copy-from": "m27iar",
     "type": "GUN",
     "name": { "str": "M27 IAR" },
-    "ammo": [ "308", "223" ],
+    "ammo": [ "308", "22", "223" ],
     "magazines": [
       [
         "223",
@@ -296,6 +300,7 @@
           "223betacmag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
   },
@@ -325,6 +330,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
   },
@@ -374,7 +380,7 @@
     "copy-from": "scar_l",
     "type": "GUN",
     "name": { "str": "FN SCAR-L" },
-    "ammo": [ "308", "223" ],
+    "ammo": [ "308", "22", "223" ],
     "magazines": [
       [
         "223",
@@ -396,6 +402,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "scarhmag", "scarhbigmag", "308betacmag" ] ]
     ]
   },
@@ -404,7 +411,7 @@
     "copy-from": "sig552",
     "type": "GUN",
     "name": { "str": "SIG 552" },
-    "ammo": [ "308", "223" ],
+    "ammo": [ "308", "22", "223" ],
     "magazines": [
       [
         "223",
@@ -426,6 +433,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
   },
@@ -434,7 +442,7 @@
     "copy-from": "steyr_aug",
     "type": "GUN",
     "name": { "str": "Steyr AUG" },
-    "ammo": [ "308", "223" ],
+    "ammo": [ "308", "22", "223" ],
     "magazines": [
       [
         "223",
@@ -456,6 +464,7 @@
           "survivor223mag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "g3mag", "g3bigmag", "308betacmag" ] ]
     ]
   },
@@ -582,6 +591,7 @@
           "223betacmag"
         ]
       ],
+      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
       [ "308", [ "scarhmag", "scarhbigmag", "scarh_makeshiftmag", "scarhmag_30rd", "308betacmag" ] ]
     ]
   },
