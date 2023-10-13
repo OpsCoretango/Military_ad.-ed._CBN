@@ -115,7 +115,7 @@
   },
   {
     "type": "recipe",
-    "result": "v32M_diesel",
+    "result": "W32_diesel",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "fabrication",
