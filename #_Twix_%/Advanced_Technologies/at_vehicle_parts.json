@@ -327,7 +327,7 @@
       "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "30 m", "using": [ [ "adhesive", 2 ], [ "plastics", 2 ] ] }
     },
     "flags": [ "WHEEL", "NEEDS_JACKING", "NEEDS_WHEEL_MOUNT_HEAVY" ],
-    "damage_reduction": { "all": 100, "cut": 105, "stab": 94 }   "damage_reduction": { "all": 105, "cut": 143, "stab": 132 }
+    "damage_reduction": { "all": 100, "cut": 105, "stab": 94 }
   }, 
   {
     "type": "vehicle_part",
