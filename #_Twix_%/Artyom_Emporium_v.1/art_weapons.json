@@ -1082,7 +1082,7 @@
     "weight": "3600 g",
     "volume": "1750 ml",
     "recoil": 15,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ],
     "reload": 105
   },
   {
@@ -1097,7 +1097,7 @@
     "volume": "1750 ml",
     "sight_dispersion": 65,
     "recoil": 25,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ],
     "reload": 120,
     "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
@@ -1117,7 +1117,7 @@
     "sight_dispersion": 65,
     "recoil": 15,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "reload": 165,
     "loudness": 140,
     "built_in_mods": [ "folding_stock" ],
@@ -1148,7 +1148,7 @@
     "dispersion": 60,
     "sight_dispersion": 75,
     "recoil": 20,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
     "reload": 135
   },
   {
@@ -1169,7 +1169,7 @@
     "sight_dispersion": 50,
     "recoil": 2,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
     "reload": 145,
     "loudness": 140,
     "valid_mod_locations": [
@@ -1198,7 +1198,7 @@
     "ammo": [ "545x39" ],
     "recoil": 5,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 12 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -1428,7 +1428,7 @@
     "sight_dispersion": 50,
     "recoil": 80,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "reload": 150,
     "loudness": 150,
     "built_in_mods": [ "scarl_uk_bigboys" ],
@@ -1613,7 +1613,7 @@
     "price": "12900 USD",
     "//": "AKs likewise aren't commercially traded in the US.",
     "material": [ "steel", "plastic" ],
-    "flags": [ "MODE_BURST", "NEVER_JAMS" ],
+    "flags": [ "NEVER_JAMS" ],
     "ammo": [ "762" ],
     "weight": "3600 g",
     "volume": "2500 ml",
@@ -1693,7 +1693,7 @@
     "sight_dispersion": 60,
     "recoil": 10,
     "durability": 6,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 12 ] ],
     "reload": 100,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -1726,7 +1726,7 @@
     "sight_dispersion": 55,
     "recoil": 30,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "reload": 110
   },
   {
@@ -1762,7 +1762,7 @@
     "sight_dispersion": 50,
     "recoil": 15,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ]
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ]
   },
   {
     "id": "m16a4",
@@ -1820,7 +1820,7 @@
     "sight_dispersion": 56,
     "recoil": 10,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 12 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -1960,7 +1960,7 @@
     "sight_dispersion": 60,
     "recoil": 25,
     "durability": 6,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
     "reload": 150,
     "loudness": 150,
     "valid_mod_locations": [
@@ -1997,7 +1997,7 @@
     "sight_dispersion": 55,
     "recoil": 65,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 20 ] ],
     "reload": 150,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2089,7 +2089,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazines": [ [ "shot", [ "auto10mag", "auto20mag" ] ] ]
+    "magazines": [ [ "shot", [ "auto10mag", "auto30mag" ] ] ]
   },
   {
     "id": "USAS_12",
@@ -2487,7 +2487,7 @@
     "description": "The South African Striker provides large capacity to the shot-gunner's world with its revolving wheel of death. Being semi-auto, its very fast in unloading it's payload. But don't expect perfect delivery every time.",
     "price": "1890 USD",
     "material": [ "steel", "plastic" ],
-    "flags": [ "MODE_BURST", "RELOAD_ONE" ],
+    "flags": [ "RELOAD_ONE" ],
     "weight": "3850 g",
     "volume": "3750 ml",
     "bashing": 10,
@@ -2574,7 +2574,7 @@
     "sight_dispersion": 85,
     "recoil": 140,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
     "reload": 150,
     "loudness": 160,
     "valid_mod_locations": [
@@ -2613,7 +2613,7 @@
     "sight_dispersion": 75,
     "recoil": 110,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 30 ] ],
     "reload": 150,
     "loudness": 160,
     "valid_mod_locations": [
@@ -2651,7 +2651,7 @@
     "sight_dispersion": 85,
     "recoil": 190,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 20 ] ],
     "reload": 150,
     "loudness": 160,
     "valid_mod_locations": [
@@ -2691,7 +2691,7 @@
     "sight_dispersion": 65,
     "recoil": 45,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
     "reload": 175,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2732,7 +2732,7 @@
     "sight_dispersion": 65,
     "recoil": 75,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 7 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
     "reload": 175,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2772,7 +2772,7 @@
     "sight_dispersion": 65,
     "recoil": 75,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 25 ] ],
     "reload": 145,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2828,7 +2828,7 @@
     "sight_dispersion": 65,
     "recoil": 55,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
     "reload": 175,
     "loudness": 150,
     "valid_mod_locations": [
