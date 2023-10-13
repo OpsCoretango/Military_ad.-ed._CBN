@@ -2,7 +2,7 @@
   {
     "id": "miltow_truck",
     "type": "vehicle",
-    "name": "M1070 Oshkosh placeholder",
+    "name": "M1070 Oshkosh",
     "blueprint": [
       [ "       o  " ],
       [ "OO ---+-O-" ],
