@@ -679,7 +679,7 @@
     "id": "460mag2",
     "type": "MAGAZINE",
     "name": { "str": "M1911A1 .460 Rowland magazine" },
-    "description": "A custom 12-round magazine for use with the M1911A1 .460 Conversion handgun.",
+    "description": "A custom 12-round extended magazine for use with the M1911A1 .460 Conversion handgun.",
     "weight": "120 g",
     "volume": "500 ml",
     "price": "29 USD",
