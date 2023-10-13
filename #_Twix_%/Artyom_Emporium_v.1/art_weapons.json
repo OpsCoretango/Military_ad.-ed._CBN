@@ -6,7 +6,7 @@
     "symbol": "(",
     "color": "dark_gray",
     "name": { "str": "Browning Hi-Power", "str_pl": "Browning Hi-Power" },
-    "looks_like": "glock_17",
+    "looks_like": "m1911",
     "description": "A old but still relatively powerful and reliable semi-auto pistol from Belgium. Rechambered to fire the ever so powerful 10mm round.",
     "price": "690 USD",
     "material": [ "wood", "steel" ],
@@ -37,7 +37,7 @@
     "copy-from": "pistol_base",
     "color": "dark_gray",
     "name": { "str": "Remington R51-Subcompact", "str_pl": "Remington R51-Subcompact" },
-    "looks_like": "hk_mp5",
+    "looks_like": "kpf9",
     "description": "A subcompact pistol made by Remington. Features a extremely light build and easy trigger pull. The perfect drop weapon.",
     "price": "690 USD",
     "material": [ "plastic", "steel" ],
@@ -318,7 +318,7 @@
     "type": "GUN",
     "copy-from": "fn_fnp",
     "name": { "str": "FN FNX-9", "str_pl": "FN FNX-9" },
-    "description": "A modern semi-automatic handgun that fires 9x19mm. Made by the guys who created the FN Five-Seven. This underestimated little pistol packs one hell of a punch. This being from Belgium; I'm not surprised it's good in a bar fight. And this one has an X in the title so you just know it's supper edgy!",
+    "description": "A modern semi-automatic handgun that fires 9x19mm. Made by FN America (branded FNH USA), a division of Fabrique Nationale d'Herstal. This underestimated tactical pistol packs one hell of a punch. This being from America under wing of Belgium guys; I'm not surprised it's good in a bar fight or emergency situations. And this one has an X in the title so you just know it's supper edgy!",
     "weight": "621 g",
     "volume": "250 ml",
     "to_hit": 1,
@@ -423,7 +423,7 @@
     "durability": 9,
     "reload": 170,
     "loudness": 150,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst fire", 4 ], [ "AUTO", "full-auto" 10 ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -460,6 +460,7 @@
     "durability": 9,
     "reload": 165,
     "loudness": 150,
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 3 ], [ "AUTO", "full-auto" 6 ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -940,7 +941,7 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "recoil": 100,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3], [ "AUTO", "full-auto", 8 ] ],
     "reload": 140,
     "loudness": 135,
     "valid_mod_locations": [
@@ -978,7 +979,7 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 5 },
     "recoil": 65,
     "durability": 5,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 7 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4],  [ "AUTO", "full-auto", 7 ] ],
     "reload": 100,
     "loudness": 175,
     "valid_mod_locations": [
@@ -1014,8 +1015,8 @@
     "dispersion": 130,
     "sight_dispersion": 95,
     "recoil": 15,
-    "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "durability": 10,
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4], [ "AUTO", "full auto", 16 ] ],
     "reload": 120,
     "loudness": 160,
     "valid_mod_locations": [
@@ -1054,7 +1055,7 @@
     "sight_dispersion": 55,
     "recoil": 5,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4], [ "AUTO", "auto", 8 ] ],
     "reload": 125,
     "loudness": 150,
     "valid_mod_locations": [
@@ -1082,7 +1083,7 @@
     "weight": "3600 g",
     "volume": "1750 ml",
     "recoil": 15,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4], [ "AUTO", "auto", 8 ] ],
     "reload": 105
   },
   {
@@ -1097,7 +1098,7 @@
     "volume": "1750 ml",
     "sight_dispersion": 65,
     "recoil": 25,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4], [ "AUTO", "auto", 8 ] ],
     "reload": 120,
     "magazines": [ [ "762", [ "akmag30", "akmag10", "akmag20", "akmag40", "akdrum75" ] ] ]
   },
@@ -1116,8 +1117,8 @@
     "dispersion": 50,
     "sight_dispersion": 65,
     "recoil": 15,
-    "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
+    "durability": 10,
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4], [ "AUTO", "auto", 10 ] ],
     "reload": 165,
     "loudness": 140,
     "built_in_mods": [ "folding_stock" ],
@@ -1148,7 +1149,7 @@
     "dispersion": 60,
     "sight_dispersion": 75,
     "recoil": 20,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4], [ "AUTO", "auto", 15 ] ],
     "reload": 135
   },
   {
@@ -1169,7 +1170,7 @@
     "sight_dispersion": 50,
     "recoil": 2,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 2], [ "AUTO", "auto", 6 ] ],
     "reload": 145,
     "loudness": 140,
     "valid_mod_locations": [
@@ -1194,11 +1195,11 @@
     "copy-from": "ak12",
     "name": { "str": "AK-12", "str_pl": "AK-12" },
     "looks_like": "ak47",
-    "description": "The newest AK in the line, just a baby compared to what all the other ones have gone through. This one said fuck America and NATO and stuck with the 5.45x39",
+    "description": "The newest AK in the line, just a baby compared to what all the other ones have gone through. This one said fuck the America and NATO and stuck with the 5.45x39",
     "ammo": [ "545x39" ],
     "recoil": 5,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 12 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "full-auto", 12 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -1235,7 +1236,7 @@
     "sight_dispersion": 40,
     "recoil": 25,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "two-round burst", 2 ], [ "AUTO", "full-auto", 5 ] ],
     "reload": 145,
     "loudness": 150,
     "valid_mod_locations": [
@@ -1298,7 +1299,7 @@
     "type": "GUN",
     "copy-from": "rifle_auto",
     "color": "dark_gray",
-    "name": { "str": "MSBS Radon", "str_pl": "MSBS Radon" },
+    "name": { "str": "MSBS Grot", "str_pl": "MSBS Grot" },
     "looks_like": "acr",
     "description": "The standard rifle used by the Poland Military in 2031, There are two versions of this rifle. This one is the Normal version, which looks a lot like the ACR and performs like it as well... Huh",
     "price": "2343 USD",
@@ -1313,7 +1314,7 @@
     "sight_dispersion": 60,
     "recoil": 5,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 5 ], [ "AUTO", "full-auto", 8 ] ],
     "reload": 125,
     "loudness": 150,
     "valid_mod_locations": [
@@ -1336,7 +1337,7 @@
     "id": "msbsb",
     "type": "GUN",
     "copy-from": "msbs",
-    "name": { "str": "MSBS Radon", "str_pl": "MSBS Radon" },
+    "name": { "str": "MSBSB Radon", "str_pl": "MSBSB Radon" },
     "description": "The standard rifle used by the Poland Military in 2031, There are two versions of this rifle. This one is the bullpup version, which is like a PDW but a hell of a lot more scary.",
     "weight": "3355 g",
     "volume": "1500 ml",
@@ -1347,7 +1348,7 @@
     "sight_dispersion": 50,
     "recoil": 15,
     "durability": 6,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 6 ] ]
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "full-auto", 8 ] ],
   },
   {
     "id": "honeybadger",
@@ -1369,7 +1370,7 @@
     "sight_dispersion": 50,
     "recoil": 25,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 6 ] ],
     "reload": 125,
     "loudness": -10,
     "built_in_mods": [ "suppressor" ],
@@ -1413,7 +1414,7 @@
     "type": "GUN",
     "copy-from": "rifle_auto",
     "color": "dark_gray",
-    "name": { "str": "Grunt", "str_pl": "Grunt" },
+    "name": { "str": "SCAR 'Grunt'", "str_pl": "SCAR 'Grunt'" },
     "looks_like": "scar_l",
     "description": "A modified SCAR L made by some unknown soldier. It has been painted a leaf camouflage and features a longer barrel then the base SCAR L, dog tags whose name has long sense faded away are wrapped around the front end of the gun. And magazines jungle taped together clasp to the magazine well. But what makes this weapon stand out is its two M203 Big boys. Two M203 launchers are fashioned to the sides of the SCAR. With a activator switch for each one taped to the magazine well. An amazing gun, unique to the Cataclysm.",
     "price": "12800 USD",
@@ -1428,7 +1429,7 @@
     "sight_dispersion": 50,
     "recoil": 80,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "full auto", 8 ] ],
     "reload": 150,
     "loudness": 150,
     "built_in_mods": [ "scarl_uk_bigboys" ],
@@ -1455,7 +1456,7 @@
     "color": "dark_gray",
     "name": { "str": "Steyr Scout" },
     "looks_like": "savage_111f",
-    "description": "The Steyr scout is a long range, compact siper rifle meant for scouting teams. It fires the powerful 7.62x51mm round and packs one hell of a punch",
+    "description": "The Steyr scout is a long range, compact sniper rifle meant for scouting teams. It fires the powerful 308. NATO round and packs one hell of a punch",
     "price": "29000 USD",
     "material": [ "steel", "ceramic" ],
     "ammo": [ "308" ],
@@ -1693,7 +1694,7 @@
     "sight_dispersion": 60,
     "recoil": 10,
     "durability": 6,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 12 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "auto", 12 ] ],
     "reload": 100,
     "valid_mod_locations": [
       [ "accessories", 4 ],
@@ -1726,7 +1727,7 @@
     "sight_dispersion": 55,
     "recoil": 30,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "auto", 10 ] ],
     "reload": 110
   },
   {
@@ -1744,7 +1745,7 @@
     "dispersion": -10,
     "sight_dispersion": 55,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ] ]
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "double tap-burst", 6 ] ],
   },
   {
     "id": "m16a3",
@@ -1762,7 +1763,7 @@
     "sight_dispersion": 50,
     "recoil": 15,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ]
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "auto", 8 ] ],
   },
   {
     "id": "m16a4",
@@ -1780,7 +1781,7 @@
     "sight_dispersion": 50,
     "recoil": 20,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "double tap-burst", 6 ] ],
     "reload": 150
   },
   {
@@ -1799,7 +1800,7 @@
     "sight_dispersion": 45,
     "recoil": 10,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 2 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ]
     "reload": 100,
     "magazines": [ [ "308", [ ".30820mag" ] ] ]
   },
@@ -1820,7 +1821,7 @@
     "sight_dispersion": 56,
     "recoil": 10,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 12 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 8 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -1853,7 +1854,7 @@
     "sight_dispersion": 45,
     "recoil": 20,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 12 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 8 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -1924,6 +1925,7 @@
     "durability": 7,
     "reload": 125,
     "loudness": 150,
+    "modes": [ [ "DEFAULT", "auto", 10 ], [ "BURST", "auto-burst", 4 ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -1960,7 +1962,7 @@
     "sight_dispersion": 60,
     "recoil": 25,
     "durability": 6,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "reload": 150,
     "loudness": 150,
     "valid_mod_locations": [
@@ -1997,7 +1999,7 @@
     "sight_dispersion": 55,
     "recoil": 65,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 20 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
     "reload": 150,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2035,7 +2037,7 @@
     "sight_dispersion": 55,
     "recoil": 5,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "auto", 12 ] ],
     "reload": 125,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2072,7 +2074,7 @@
     "sight_dispersion": 90,
     "recoil": 110,
     "durability": 5,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 8 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "full-auto", 10 ] ],
     "reload": 150,
     "loudness": 175,
     "valid_mod_locations": [
@@ -2116,7 +2118,7 @@
     "sight_dispersion": 80,
     "recoil": 10,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 3 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "full-auto", 7 ] ],
     "reload": 150,
     "loudness": 175,
     "valid_mod_locations": [
@@ -2381,7 +2383,21 @@
     "recoil": 65,
     "durability": 10,
     "barrel_length": 5,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "sling", 1 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 2 ]
+    ]
+  },
     "magazines": [ [ "762R", [ "7.62x54Rmag", "7.62x54Rmag2" ] ] ]
   },
   {
@@ -2400,7 +2416,21 @@
     "recoil": 95,
     "durability": 10,
     "barrel_length": 3,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "sling", 1 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "conversion", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 2 ]
+    ]
+  },
     "magazines": [ [ "762R", [ "7.62x54Rmag", "7.62x54Rmag2" ] ] ]
   },
   {
@@ -2462,6 +2492,7 @@
     "clip_size": 5,
     "reload": 75,
     "loudness": 175,
+    "modes": [ [ "DEFAULT", "pump-action", 1 ], [ "BURST", "slam-fire burst", 2 ] ], [ "AUTO", "slam-fire full", 5 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -2496,7 +2527,7 @@
     "sight_dispersion": 80,
     "recoil": 45,
     "durability": 6,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 5 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "burst", 4 ], "AUTO", "auto-burst", 6 ],
     "clip_size": 12,
     "reload": 100,
     "loudness": 175,
@@ -2574,7 +2605,7 @@
     "sight_dispersion": 85,
     "recoil": 140,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 10 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], "AUTO", "full-auto", 16 ],
     "reload": 150,
     "loudness": 160,
     "valid_mod_locations": [
@@ -2613,7 +2644,7 @@
     "sight_dispersion": 75,
     "recoil": 110,
     "durability": 7,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 30 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "full-auto", 30 ] ],
     "reload": 150,
     "loudness": 160,
     "valid_mod_locations": [
@@ -2651,7 +2682,7 @@
     "sight_dispersion": 85,
     "recoil": 190,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 20 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "full-auto", 20 ] ],
     "reload": 150,
     "loudness": 160,
     "valid_mod_locations": [
@@ -2691,7 +2722,7 @@
     "sight_dispersion": 65,
     "recoil": 45,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "full-auto", 15 ] ],
     "reload": 175,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2732,7 +2763,7 @@
     "sight_dispersion": 65,
     "recoil": 75,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 3 ], [ "AUTO", "full-auto", 20 ] ],
     "reload": 175,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2772,7 +2803,7 @@
     "sight_dispersion": 65,
     "recoil": 75,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 25 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 3 ], [ "AUTO", "full-auto", 25 ] ],
     "reload": 145,
     "loudness": 150,
     "valid_mod_locations": [
@@ -2828,7 +2859,7 @@
     "sight_dispersion": 65,
     "recoil": 55,
     "durability": 9,
-    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "AUTO", "auto", 15 ] ],
+    "modes": [ [ "DEFAULT", "semi auto", 1 ], [ "BURST", "auto-burst", 4 ], [ "AUTO", "full-auto", 15 ] ],
     "reload": 175,
     "loudness": 150,
     "valid_mod_locations": [
