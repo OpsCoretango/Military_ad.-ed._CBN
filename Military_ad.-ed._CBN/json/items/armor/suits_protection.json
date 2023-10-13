@@ -35,7 +35,7 @@
     "color": "light_red",
     "covers": [ "head", "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
-    "encumbrance": 35,
+    "encumbrance": 13,
     "warmth": 50,
     "material_thickness": 7,
     "environmental_protection": 20,
