@@ -306,13 +306,14 @@
     "copy-from": "m4a1",
     "type": "GUN",
     "name": { "str": "M4A1" },
+    "ammo": [ "308", "223" ],
     "magazines": [
       [
         "223",
         [
+          "transmag",
           "stanag30",
           "stanag5",
-          "transmag",
           "stanag10",
           "stanag20",
           "stanag40",
@@ -564,6 +565,7 @@
     "copy-from": "scar_l",
     "type": "GUN",
     "name": { "str": "FN SCAR-H" },
+    "ammo": [ "308" ],
     "magazines": [
       [ "308", [ "scarhmag", "scarhbigmag", "scarh_makeshiftmag", "scarhmag_30rd", "308betacmag" ] ]
     ]
