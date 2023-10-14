@@ -7,7 +7,7 @@
   {
     "type": "item_group",
     "id": "gunmod_common",
-    "items": [ [ "peep_sight", 40 ], [ "survivor_bipod", 10 ], [ "autofire_rifle", 5 ], [ "retool_40", 10 ], [ "retool_38", 10 ], [ "retool_357", 10 ], [ "retool_9mm", 10 ], [ "retool_45", 10 ], [ "retool_22", 10 ]
+    "items": [ [ "peep_sight", 40 ], [ "survivor_bipod", 10 ], [ "autofire_rifle", 5 ], [ "retool_40", 10 ], [ "retool_38", 10 ], [ "retool_357", 10 ], [ "retool_9mm", 10 ], [ "retool_45", 10 ], [ "retool_22", 10 ] ]
   },
   {
     "type": "item_group",
