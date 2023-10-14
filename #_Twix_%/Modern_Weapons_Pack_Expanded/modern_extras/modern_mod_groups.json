@@ -2,16 +2,16 @@
   {
     "type": "item_group",
     "id": "gunmod_rare",
-    "items": [ [ "neck_strap", 10 ], [ "six12_mod", 20 ] ]
+    "items": [ [ "neck_strap", 10 ], [ "six12_mod", 20 ], [ "select_autofire_rifle", 7 ], [ "select_autofire_shot", 10 ], [ "retool_545x39", 5 ], [ "retool_762", 15 ], [ "retool_46", 13 ], [ "retool_57", 13 ], [ "retool_223", 13 ], [ "retool_308", 13 ] ]
   },
   {
     "type": "item_group",
     "id": "gunmod_common",
-    "items": [ [ "peep_sight", 40 ], [ "survivor_bipod", 10 ] ]
+    "items": [ [ "peep_sight", 40 ], [ "survivor_bipod", 10 ], [ "autofire_rifle", 5 ], [ "retool_40", 10 ] [ "retool_38", 10 ], [ "retool_357", 10 ], [ "retool_9mm", 10 ], [ "retool_45", 10 ], [ "retool_22", 10 ]
   },
   {
     "type": "item_group",
     "id": "gunmod_milspec",
-    "items": [ [ "peep_sight", 20 ], [ "susat_scope", 10 ] ]
+    "items": [ [ "peep_sight", 20 ], [ "susat_scope", 10 ], [ "retool_223", 10 ], [ "retool_308", 10 ] ]
   }
 ]
