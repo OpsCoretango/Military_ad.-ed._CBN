@@ -368,7 +368,7 @@
     "//": "Nearly-immeasurable chance to fail to fire."
   },
   {
-    "id": "NON-FOULING",
+    "id": "NON_FOULING",
     "type": "ammo_effect",
     "//": "Doesn't cause gunk to build up."
   }
